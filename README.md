@@ -17,7 +17,7 @@ Steps to run:
 
     # make changes in the .js file like changing serviceId or adding an API key (optional)
 
-    # run
+    # start
     npm start
 
 

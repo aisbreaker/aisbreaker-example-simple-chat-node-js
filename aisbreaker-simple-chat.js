@@ -7,7 +7,7 @@
 //   node aisbreaker-simple-chat.js
 //
 
-import { api, init } from "aisbreaker-api-js";
+import { api } from "aisbreaker-api-js";
 
 
 console.log("aisbreaker-example-simple-chat");
@@ -24,7 +24,7 @@ const auth = {
 }
 //init();
 const aisService = api.AIsBreaker.getInstance().
-    getRemoteAIsService(aisbreakerServerURL, servicePros, auth);
+    getAIsService(aisbreakerServerURL, servicePros, auth);
 
 
 
