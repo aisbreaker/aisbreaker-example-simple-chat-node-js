@@ -1,0 +1,16 @@
+{
+  "name": "aisbreaker-example-simple-chat-nodejs",
+  "version": "0.0.1",
+  "description": "Two demo applications to demonstrate the usage of `aisbreaker-api` in a JavaScript NodeJS application",
+  "type": "module",
+  "main": "aisbreaker-simple-chat.js",
+  "scripts": {
+    "//test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node aisbreaker-simple-chat.js"
+  },
+  "author": "aisbreaker",
+  "license": "MIT",
+  "dependencies": {
+    "aisbreaker-api-js": "^0.1.11"
+  }
+}
