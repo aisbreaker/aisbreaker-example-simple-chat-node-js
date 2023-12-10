@@ -30,7 +30,14 @@ const servicePros = {
 // service initialization
 const aisbreakerServerURL = "https://api.demo.aisbreaker.org/";
 const auth = {
-    secret: process.env.OPENAI_API_KEY || "",
+    // optionally, set your OpenAI API key:
+    //secret: "sk-...",
+
+    // optionally, set your Huggingface API key:
+    //secret: "hf_...",
+
+    // optionally, set your AIsBreaker API key:
+    //secret: "aisbreaker_...",
 }
 const aisService = api.AIsBreaker.getInstance().
     getAIsService(aisbreakerServerURL, servicePros, auth);
