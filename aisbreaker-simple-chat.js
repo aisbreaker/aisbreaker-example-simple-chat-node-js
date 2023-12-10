@@ -4,31 +4,39 @@
 // Simple example for AIsBreaker with JavaScript and NodeJS: simple chat.
 //
 // Run it with:
-//   node aisbreaker-simple-chat.js
+//   npm install && npm run start
 //
 
 import { api } from "aisbreaker-api-js";
 
-
 console.log("aisbreaker-example-simple-chat");
 console.log("------------------------------");
 
+
+// service configuration: select the service/serviceId you want to use
+const servicePros = {
+    serviceId: "chat:dummy",
+
+    //serviceId: "chat:openai.com",
+
+    //serviceId: "chat:huggingface.co/microsoft/DialoGPT-large",
+
+    //serviceId: "aisbreaker:mirror",
+    //forward2ServiceProps: {
+    //  "serviceId": "chat:echo"
+    //},
+};
+
 // service initialization
 const aisbreakerServerURL = "https://api.demo.aisbreaker.org/";
-const servicePros = {
-    //serviceId: "chat:dummy",
-    serviceId: "chat:openai.com",
-}
 const auth = {
     secret: process.env.OPENAI_API_KEY || "",
 }
-//init();
 const aisService = api.AIsBreaker.getInstance().
     getAIsService(aisbreakerServerURL, servicePros, auth);
 
 
-
-    // 1st question/prompt
+// 1st question/prompt
 const question1 = "What is NodeJS?";
 console.log(`***** Question1 *****\n${question1}\n`);
 
@@ -44,7 +52,6 @@ const response1 = await aisService.process({
 console.log(`***** Answer1 *****\n${response1.outputs[0].text.content}\n`);
 
 
-
 // 2nd question/prompt
 const question2 = "shorter please";
 console.log(`***** Question2 *****\n${question2}\n`);
@@ -58,5 +65,5 @@ const response2 = await aisService.process({
         },
     } ],
     conversationState: response1.conversationState,
-})
+});
 console.log(`***** Answer2 *****\n${response2.outputs[0].text.content}\n`);
