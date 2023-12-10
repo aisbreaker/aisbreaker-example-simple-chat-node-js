@@ -18,9 +18,9 @@ Steps to run:
     # make changes in the .js file like changing serviceId or adding an API key (optional)
 
     # start
-    npm start
+    npm run start
 
 
 ## Source Code
 * GitHub repo: [aisbreaker-example-simple-chat-node-js](https://github.com/aisbreaker/aisbreaker-example-simple-chat-node-js)
-* run and edit in a browser IDE: [aisbreaker-example-simple-chat-node-js in StackBlitz](https://stackblitz.com/github/aisbreaker/aisbreaker-example-simple-chat-node-js?title=AIsBreaker+Example+Simple+Chat-node-js&file=aisbreaker-simple-chat.js&startScript=npm+install+%26%26+npm+start)
+* **run and edit in a browser IDE: [Open in StackBlitz](https://stackblitz.com/github/aisbreaker/aisbreaker-example-simple-chat-node-js?title=AIsBreaker+Example+Simple+Chat-node-js&file=aisbreaker-simple-chat.js&startScript=install,start)**

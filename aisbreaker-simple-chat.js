@@ -46,7 +46,7 @@ console.log(`***** Answer1 *****\n${response1.outputs[0].text.content}\n`);
 
 
 // 2nd question/prompt
-const question2 = "Please translate to German";
+const question2 = "shorter please";
 console.log(`***** Question2 *****\n${question2}\n`);
 
 // 2nd answer
