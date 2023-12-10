@@ -2,12 +2,13 @@
 
 ## Introduction
 
-This repo contains the demo applications `aisbreaker-simple-chat.js`
-to demonstrate the usage of `aisbreaker-api-js` in a JavaScript NodeJS application.
+This repo contains the demo application `aisbreaker-simple-chat.js`
+using `aisbreaker-api-js` in a JavaScript NodeJS application.
 
 AIsBreaker offers a developer-friendly API for streamlined access to a variety of generative AI services, including OpenAI/ChatGPT, all Hugging Face AIs, and more ... to provide simplicity and to avoid vendor lock-in.
 
-Docs: [aisbreaker.org](https://aisbreaker.org/)
+Docs and more: [aisbreaker.org](https://aisbreaker.org/)
+
 
 ## Run the demo
 Steps to run:
