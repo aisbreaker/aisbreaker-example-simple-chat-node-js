@@ -21,6 +21,8 @@ const servicePros = {
 
     //serviceId: "chat:huggingface.co/microsoft/DialoGPT-large",
 
+    //serviceId: "chat:huggingface.co/<HF-ACCOUNT>/<HF-MODEL>",
+
     //serviceId: "aisbreaker:mirror",
     //forward2ServiceProps: {
     //  "serviceId": "chat:echo"

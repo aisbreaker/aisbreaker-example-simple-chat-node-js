@@ -1,6 +1,6 @@
 {
   "name": "aisbreaker-example-simple-chat-nodejs",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Demo application using `aisbreaker-api-js` in a JavaScript NodeJS application.",
   "type": "module",
   "main": "aisbreaker-simple-chat.js",
@@ -10,6 +10,6 @@
   "author": "aisbreaker",
   "license": "MIT",
   "dependencies": {
-    "aisbreaker-api-js": "^0.1.14"
+    "aisbreaker-api-js": "^0.1.15"
   }
 }
