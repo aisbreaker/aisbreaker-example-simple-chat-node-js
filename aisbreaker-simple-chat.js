@@ -19,6 +19,8 @@ const servicePros = {
 
     //serviceId: "chat:openai.com",
 
+    //serviceId: "chat:gemini.vertexai.google.com",
+
     //serviceId: "chat:huggingface.co/microsoft/DialoGPT-large",
 
     //serviceId: "chat:huggingface.co/<HF-ACCOUNT>/<HF-MODEL>",
@@ -34,6 +36,9 @@ const aisbreakerServerURL = "https://api.demo.aisbreaker.org/";
 const auth = {
     // optionally, set your OpenAI API key:
     //secret: "sk-...",
+
+    // optionally, set your Google Cloud (Vertext AI) API key:
+    //secret: "googlecloud-account-json-base64_..",
 
     // optionally, set your Huggingface API key:
     //secret: "hf_...",

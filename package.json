@@ -10,6 +10,6 @@
   "author": "aisbreaker",
   "license": "MIT",
   "dependencies": {
-    "aisbreaker-api-js": "^0.1.15"
+    "aisbreaker-api-js": "^0.1.16"
   }
 }
