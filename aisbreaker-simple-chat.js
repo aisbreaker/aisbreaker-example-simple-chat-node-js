@@ -20,6 +20,8 @@ const servicePros = {
     //serviceId: "chat:openai.com",
 
     //serviceId: "chat:gemini.vertexai.google.com",
+    //project:   "<YOUR-GOOGLE-CLOUD-PROJECT>",                      # optional for gemini.vertexai.google.com
+    //location:  "<YOUR-GOOGLE-CLOUD-LOCATION, e.g. 'us-central1'>", # optional for gemini.vertexai.google.com
 
     //serviceId: "chat:huggingface.co/microsoft/DialoGPT-large",
 
