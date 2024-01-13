@@ -14,18 +14,18 @@ console.log("------------------------------");
 
 
 // service configuration: select the service/serviceId you want to use
-const servicePros = {
+const serviceProps = {
     serviceId: "chat:dummy",
 
     //serviceId: "chat:openai.com",
 
     //serviceId: "chat:gemini.vertexai.google.com",
-    //project:   "<YOUR-GOOGLE-CLOUD-PROJECT>",                      # optional for gemini.vertexai.google.com
-    //location:  "<YOUR-GOOGLE-CLOUD-LOCATION, e.g. 'us-central1'>", # optional for gemini.vertexai.google.com
-
-    //serviceId: "chat:huggingface.co/microsoft/DialoGPT-large",
+    //project:   "<YOUR-GOOGLE-CLOUD-PROJECT>",         # optional for gemini.vertexai.google.com
+    //location:  "<YOUR-GOOGLE-CLOUD-LOCATION>",        # optional for gemini.vertexai.google.com, e.g. "us-central1"
 
     //serviceId: "chat:huggingface.co/<HF-ACCOUNT>/<HF-MODEL>",
+    // e.g.:
+    // serviceId: "chat:huggingface.co/microsoft/DialoGPT-large",
 
     //serviceId: "aisbreaker:mirror",
     //forward2ServiceProps: {
@@ -49,7 +49,7 @@ const auth = {
     //secret: "aisbreaker_...",
 }
 const aisService = api.AIsBreaker.getInstance().
-    getAIsService(aisbreakerServerURL, servicePros, auth);
+    getAIsService(aisbreakerServerURL, serviceProps, auth);
 
 
 // 1st question/prompt
